@@ -142,9 +142,7 @@ switch (minha, computador) {
     case 'tesoura', 'tesoura': console.log("Empate!")
     break
 }
-
-
-
+console.log("")
 // EXERCÍCIO 8 - Sistema de notas
 // Crie uma variável com uma nota de 0 a 10.
 // Use if/else para mostrar o conceito:
@@ -154,10 +152,19 @@ switch (minha, computador) {
 //   4 e 3    = "D"
 //   2, 1, 0  = "F"
 // ------------------------------------------------------------
-
-
-
-
+let nota = 10
+if (nota === 10 || nota === 9) {
+    console.log("Nota A")
+} else if (nota === 8 || nota === 7) {
+    console.log("Nota B")
+} else if (nota === 6 || nota === 5) {
+    console.log("Nota C")
+} else if (nota === 4 || nota === 3) {
+    console.log("Nota D")
+} else if (nota <= 2) {
+    console.log("Nota F")
+}
+console.log("")
 // ============================================================
 //  BLOCO 3 - LOOPS (for, while)
 // ============================================================
