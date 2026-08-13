@@ -58,9 +58,11 @@ console.log("")
 // Se a média for >= 7, mostre "Aprovado".
 // Se não, mostre "Reprovado".
 // ------------------------------------------------------------
-let medias = [7, 10, 5]
-let conta = medias[0] + medias[1] + medias[2] / medias.length
-console.log(`As notas são: ${medias}.\nA média das notas é: ${conta}`)
+let nota1 = 10
+let nota2 = 5
+let nota3 = 7
+let conta = nota1 + nota2 + nota3 / 3
+console.log(`As notas são: ${nota1}, ${nota2} e ${nota3}.\nA média das notas é: ${conta}`)
 if (conta >= 7) {
     console.log("Aluno aprovado!")
 } else {
@@ -93,10 +95,21 @@ console.log("")
 //   25 até 29.9    = "Sobrepeso"
 //   30 ou mais     = "Obesidade"
 // ------------------------------------------------------------
-
-
-
-
+let peso = 60
+let altura = 1.76
+let IMC = peso / (altura * altura)
+if (IMC < 18.5) {
+    console.log("Abaixo do peso")
+} else if (IMC >= 18.5 && IMC <= 24.9){
+    console.log("Peso normal")
+} else if (IMC >= 25 && IMC <= 29.9) {
+    console.log("Sobrepeso")
+} else if (IMC >= 30) {
+    console.log("Obesidade")
+} else {
+    console.log("AH morre, Diabo!")
+}
+console.log("")
 // EXERCÍCIO 7 - Pedra, papel e tesoura
 // Crie uma variável com sua jogada ("pedra", "papel" ou "tesoura").
 // Faça o computador escolher aleatoriamente uma jogada.
