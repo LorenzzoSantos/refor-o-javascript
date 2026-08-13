@@ -182,18 +182,17 @@ let num = 10
 for (let i = 1; i <= 10; i++) {
     console.log(num * i)
 }
-
-
-
+console.log("")
 // EXERCÍCIO 10 - Contagem regressiva
 // Use um for para contar de 10 até 0.
 // Mostre cada número no console.
 // No final, mostre "Feliz Ano Novo!" (ou qualquer mensagem).
 // ------------------------------------------------------------
-
-
-
-
+for (i = 10; i >= 0; i--) {
+    console.log(i)
+}
+console.log("SIX SEVEEEEEEEEEEEENNNNNNN")
+console.log("")
 // EXERCÍCIO 11 - Somar números
 // Crie uma variável N com um número qualquer.
 // Use um for para somar todos os números de 1 até N.
