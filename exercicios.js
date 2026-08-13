@@ -19,7 +19,14 @@
 // Crie 2 variáveis com números e mostre no console
 // o resultado da soma, subtração, multiplicação e divisão.
 // ------------------------------------------------------------
+let numero1 = 10
+let numero2 = 5
 
+console.log("--- Veja agora as operações envolvendo os números", numero1, " e ", numero2, " ---")
+console.log("A soma desses números é: ", numero1 + numero2)
+console.log("A subtração desses números é: ", numero1 - numero2)
+console.log("A multiplicação desses números é: ", numero1 * numero2)
+console.log("A divisão desses números é: ", numero1 / numero2)
 
 
 
