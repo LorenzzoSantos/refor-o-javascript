@@ -29,36 +29,44 @@ console.log("A multiplicação desses números é: ", numero1 * numero2)
 console.log("A divisão desses números é: ", numero1 / numero2)
 
 
-
+console.log("")
 // EXERCÍCIO 2 - Conversor de temperatura
 // Crie uma variável com um valor em Celsius.
 // Converta para Fahrenheit e mostre no console.
 // Fórmula: F = C * 9/5 + 32
 // ------------------------------------------------------------
-
-
-
-
+let Celsius = 26
+let Fahrenheit = Celsius * 9/5 + 32
+console.log(`Temperatura atual em Celsius: ${Celsius}ºC\nTemperatura atual em Fahrenheit: ${Fahrenheit}ºF`)
+console.log("")
 // EXERCÍCIO 3 - Par ou ímpar
 // Crie uma variável com um número.
 // Mostre no console se ele é par ou ímpar.
 // Dica: use o operador % (resto da divisão)
 // Se numero % 2 === 0, é par.
-// ------------------------------------------------------------
-
-
-
-
+/* ------------------------------------------------------------
+let numPI = 10
+if (numPI % 2 === 0) {
+    console.log(`O número ${numPI} é par`)
+} else {
+    console.log(`O número ${numPI} é ímpar`)
+}
+console.log("")
 // EXERCÍCIO 4 - Média de notas
 // Crie 3 variáveis com notas (de 0 a 10).
 // Calcule a média e mostre no console.
 // Se a média for >= 7, mostre "Aprovado".
 // Se não, mostre "Reprovado".
 // ------------------------------------------------------------
-
-
-
-
+let medias = [7, 10, 5]
+let conta = medias[0] + medias[1] + medias[2] / medias.length
+console.log(`As notas são: ${medias}.\nA média das notas é: ${conta}`)
+if (conta >= 7) {
+    console.log("Aluno aprovado!")
+} else {
+    console.log("Aluno reprovado")
+}
+console.log("")
 // ============================================================
 //  BLOCO 2 - CONDICIONAIS (if/else, switch)
 // ============================================================
@@ -69,10 +77,13 @@ console.log("A divisão desses números é: ", numero1 / numero2)
 // Se for >= 18, mostre "Maior de idade".
 // Se não, mostre "Menor de idade".
 // ------------------------------------------------------------
-
-
-
-
+let idade = 15
+if (idade >= 18) {
+    console.log(`Você tem ${idade} anos: Maior de idade.`)
+} else {
+    console.log(`Você tem ${idade} anos: Menor de idade.`)
+}
+console.log("")
 // EXERCÍCIO 6 - Calculadora de IMC
 // Crie variáveis para peso (em kg) e altura (em metros).
 // Calcule o IMC: peso / (altura * altura)
