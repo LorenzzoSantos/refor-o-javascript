@@ -118,7 +118,30 @@ console.log("")
 //   let computador = opcoes[Math.floor(Math.random() * 3)]
 // Compare as jogadas e mostre quem ganhou.
 // ------------------------------------------------------------
+let opcoes = ['pedra', 'papel', 'tesoura']
+let minha = "papel"
+let computador = opcoes[Math.floor(Math.random() * 3)]
 
+switch (minha, computador) {
+    case 'pedra', 'pedra': console.log("Empate!")
+    break
+    case 'pedra', 'papel': console.log("Computador ganhou!")
+    break
+    case 'pedra', 'tesoura': console.log("Você ganhou!")
+    break
+    case 'papel', 'pedra': console.log("Você ganhou!")
+    break
+    case 'papel', 'papel': console.log("Empate!")
+    break
+    case 'papel', 'tesoura': console.log("Computador ganhou!")
+    break
+    case 'tesoura', 'pedra': console.log("Computador ganhou!")
+    break
+    case 'tesoura', 'papel': console.log("Você ganhou!")
+    break
+    case 'tesoura', 'tesoura': console.log("Empate!")
+    break
+}
 
 
 
