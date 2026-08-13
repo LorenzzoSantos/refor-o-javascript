@@ -44,7 +44,7 @@ console.log("")
 // Mostre no console se ele é par ou ímpar.
 // Dica: use o operador % (resto da divisão)
 // Se numero % 2 === 0, é par.
-/* ------------------------------------------------------------
+// ------------------------------------------------------------
 let numPI = 10
 if (numPI % 2 === 0) {
     console.log(`O número ${numPI} é par`)
@@ -69,7 +69,7 @@ if (conta >= 7) {
 console.log("")
 // ============================================================
 //  BLOCO 2 - CONDICIONAIS (if/else, switch)
-// ============================================================
+/* ============================================================
 
 
 // EXERCÍCIO 5 - Maior de idade
