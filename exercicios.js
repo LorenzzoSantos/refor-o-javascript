@@ -250,7 +250,18 @@ console.log("")
 // Dica: use um for de 2 até numero-1 e verifique se
 // algum divide o número sem resto (numero % i === 0).
 // ------------------------------------------------------------
-
+function ehPrimo (num14) {
+    if (num14 <= 1) {
+        return false;
+    }
+    for (let i = 2; i < num14; i++) {
+        if (num14 % i === 0) {
+            return false
+        }
+    }
+    return console.log("Seu número é Primo!")
+}
+console.log(ehPrimo(7))
 
 
 
