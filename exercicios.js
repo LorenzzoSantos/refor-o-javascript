@@ -225,8 +225,7 @@ while (resposta != secreto) {
         console.log("Seu palpite é menor que o número secreto!")
     }
 } console.log("Parabéns!!! Você acertou o número!")
-
-
+console.log("")
 // ============================================================
 //  BLOCO 4 - FUNÇÕES
 // ============================================================
@@ -238,10 +237,12 @@ while (resposta != secreto) {
 // Chame a função e mostre o resultado no console.
 // Exemplo: saudacao("Maria") retorna "Olá, Maria!"
 // ------------------------------------------------------------
-
-
-
-
+function saudacao (nome) {
+    let nome13 = prompt("Digite seu nome: ")
+    console.log(`Olá ${nome13}`)
+}
+saudacao()
+console.log("")
 // EXERCÍCIO 14 - Número primo
 // Crie uma função chamada "ehPrimo" que recebe um número
 // e retorna true se for primo, false se não for.
