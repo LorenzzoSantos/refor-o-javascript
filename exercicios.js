@@ -261,18 +261,19 @@ function ehPrimo (num14) {
     }
     return console.log("Seu número é Primo!")
 }
-console.log(ehPrimo(7))
-
-
-
+ehPrimo(7)
+console.log("")
 // EXERCÍCIO 15 - Inverter string
 // Crie uma função chamada "inverter" que recebe uma string
 // e retorna ela invertida.
 // Exemplo: inverter("javascript") retorna "tpircsavaj"
-// Dica: use split('') para virar array, reverse() para
+// Dica: use split('') para virar o array, reverse() para
 // inverter, e join('') para voltar a ser string.
 // ------------------------------------------------------------
-
+function inverter (string) {
+    console.log(string.split('').reverse().join(''))
+}
+inverter("JavaScript")
 
 
 
