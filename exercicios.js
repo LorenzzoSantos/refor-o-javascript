@@ -1,3 +1,4 @@
+const prompt = require('prompt-sync')();
 // ============================================================
 //  LISTA DE EXERCÍCIOS - JAVASCRIPT
 // ============================================================
@@ -214,8 +215,16 @@ console.log("")
 // Quando acertar, mostre "Parabéns! Acertou!"
 // Dica: use prompt() para pedir o palpite do usuário.
 // ------------------------------------------------------------
-
-
+let secreto = Math.floor(Math.random() * 10) + 1
+let resposta
+while (resposta != secreto) {
+    resposta = Number(prompt("Tente acertar o número: "))
+    if (resposta > secreto) {
+        console.log("Seu palpite é maior que o número secreto!")
+    } else if (resposta < secreto) {
+        console.log("Seu palpite é menor que o número secreto!")
+    }
+} console.log("Parabéns!!! Você acertou o número!")
 
 
 // ============================================================
