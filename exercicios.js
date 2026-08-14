@@ -199,10 +199,13 @@ console.log("")
 // Mostre o resultado no console.
 // Exemplo: se N = 5, resultado = 1+2+3+4+5 = 15
 // ------------------------------------------------------------
-
-
-
-
+let N = 5
+let soma = 0
+for (let i = 1; i <= N; i++) {
+    soma += i
+}
+console.log(soma)
+console.log("")
 // EXERCÍCIO 12 - Adivinhe o número
 // O computador escolhe um número aleatório de 1 a 10:
 //   let secreto = Math.floor(Math.random() * 10) + 1
