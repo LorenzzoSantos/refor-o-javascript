@@ -295,7 +295,7 @@ function contarVogais (palavra) {
     return contador
 }
 console.log(contarVogais("Pedro"))
-
+console.log("")
 // ============================================================
 //  BLOCO 5 - ARRAYS
 // ============================================================
@@ -329,10 +329,13 @@ console.log("")
 // Dica: use Math.max(...array) e Math.min(...array)
 // Ou tente fazer com um for (mais desafiador!).
 // ------------------------------------------------------------
+let numeros = [10, 5, 18, 20, 9, 15, 16, 14]
 
+let maiorNum = Math.max(...numeros)
+let menorNum = Math.max(...numeros)
 
-
-
+console.log("O maior número é o ", maiorNum, " e o menor é o ", menorNum)
+console.log("")
 // EXERCÍCIO 19 - Ordenar nomes
 // Crie um array com 6 nomes de pessoas.
 // Ordene em ordem alfabética e mostre no console.
