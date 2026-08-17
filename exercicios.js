@@ -275,8 +275,7 @@ function inverter (string) {
 }
 inverter("JavaScript")
 
-
-
+console.log("")
 // EXERCÍCIO 16 - Contar vogais
 // Crie uma função chamada "contarVogais" que recebe uma
 // palavra e retorna quantas vogais ela tem.
@@ -284,9 +283,18 @@ inverter("JavaScript")
 // Dica: transforme em minúscula com .toLowerCase()
 // e verifique cada letra com um for.
 // ------------------------------------------------------------
-
-
-
+function contarVogais (palavra) {
+    let contador = 0
+    let palavraMo = palavra.toLowerCase()
+    for (let i = 0; i < palavraMo.length; i++) {
+        let letra = palavraMo[i]
+        if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") {
+            contador++;
+        }
+    } 
+    return contador
+}
+console.log(contarVogais("Pedro"))
 
 // ============================================================
 //  BLOCO 5 - ARRAYS
@@ -299,10 +307,21 @@ inverter("JavaScript")
 // Mostre a lista no console.
 // Remova o último item com pop() e mostre a lista novamente.
 // ------------------------------------------------------------
+/*let listaCompras = []
 
+listaCompras.push("Maçã")
+listaCompras.push("Banana")
+listaCompras.push("Laranja")
+listaCompras.push("Pera")
+listaCompras.push("Abacaxi")
 
+console.log(listaCompras)
 
+listaCompras.pop()
 
+console.log(listaCompras)
+
+console.log("")
 // EXERCÍCIO 18 - Maior e menor
 // Crie um array com 8 números diferentes.
 // Encontre o maior e o menor número do array.
