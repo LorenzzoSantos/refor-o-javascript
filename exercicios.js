@@ -342,10 +342,14 @@ console.log("")
 // Depois ordene ao contrário (Z até A) e mostre também.
 // Dica: use .sort() e .reverse()
 // ------------------------------------------------------------
+let nomes = ["Pedro", "Rodrigo", "Lorenzzo", "Piter", "Luan", "Oscar"]
 
+nomes.sort();
+console.log(nomes)
+nomes.reverse();
+console.log(nomes)
 
-
-
+console.log("")
 // EXERCÍCIO 20 - Filtrar pares
 // Crie um array com os números de 1 a 20.
 // Filtre apenas os números pares e guarde num novo array.
