@@ -307,7 +307,7 @@ console.log(contarVogais("Pedro"))
 // Mostre a lista no console.
 // Remova o último item com pop() e mostre a lista novamente.
 // ------------------------------------------------------------
-/*let listaCompras = []
+let listaCompras = []
 
 listaCompras.push("Maçã")
 listaCompras.push("Banana")
