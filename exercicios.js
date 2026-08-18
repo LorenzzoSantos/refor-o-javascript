@@ -389,6 +389,10 @@ document.getElementById("button3").addEventListener("click", function () {
     document.body.style.backgroundColor = 'green';
 });
 
+document.getElementById("button4").addEventListener("click", function () {
+    document.body.style.backgroundColor = 'white';
+});
+
 
 // EXERCÍCIO 22 - Contador
 // Crie no HTML: um <h1> com o número 0, e dois botões (+ e -).
@@ -397,6 +401,14 @@ document.getElementById("button3").addEventListener("click", function () {
 // Dica: use uma variável para guardar o valor do contador
 // e atualize o textContent do <h1> a cada clique.
 // ------------------------------------------------------------
+
+let contador = document.getElementById("contador")
+const botMais = document.getElementById("button4+").addEventListener("click", function () {
+    contador.textContent++
+})
+const botMenos = document.getElementById("button4-").addEventListener("click", function () {
+    contador.textContent--
+})
 
 
 
