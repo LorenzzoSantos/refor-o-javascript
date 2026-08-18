@@ -1,4 +1,4 @@
-const prompt = require('prompt-sync')();
+/* const prompt = require('prompt-sync')();
 // ============================================================
 //  LISTA DE EXERCÍCIOS - JAVASCRIPT
 // ============================================================
@@ -361,8 +361,7 @@ let pares = FiltroPar.filter(function(FiltroPar) { return FiltroPar % 2 === 0 })
 
 console.log(pares)
 
-
-
+console.log("")
 // ============================================================
 //  BLOCO 6 - DOM (Manipulação da página)
 // ============================================================
@@ -370,7 +369,7 @@ console.log(pares)
 //  no HTML ou usar o index.html que já existe.
 //  Peça ajuda ao professor se precisar do HTML!
 // ============================================================
-
+*/
 
 // EXERCÍCIO 21 - Mudar cor de fundo
 // Crie 3 botões no HTML (Vermelho, Azul, Verde).
@@ -378,7 +377,17 @@ console.log(pares)
 // Dica: document.body.style.backgroundColor = 'red'
 // ------------------------------------------------------------
 
+document.getElementById("button1").addEventListener("click", function () {
+    document.body.style.backgroundColor = 'red';
+});
 
+document.getElementById("button2").addEventListener("click", function () {
+    document.body.style.backgroundColor = 'blue';
+});
+
+document.getElementById("button3").addEventListener("click", function () {
+    document.body.style.backgroundColor = 'green';
+});
 
 
 // EXERCÍCIO 22 - Contador
