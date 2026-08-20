@@ -410,9 +410,6 @@ const botMenos = document.getElementById("button4-").addEventListener("click", f
     contador.textContent--
 })
 
-
-
-
 // EXERCÍCIO 23 - Mostrar e esconder
 // Crie no HTML: um botão "Mostrar/Esconder" e um <div> com
 // um texto qualquer dentro.
@@ -420,7 +417,12 @@ const botMenos = document.getElementById("button4-").addEventListener("click", f
 // Dica: use classList.toggle() com uma classe CSS que tenha
 // display: none
 // ------------------------------------------------------------
+let Div = document.getElementById("Div1");
+let botaoVisu = document.getElementById("botaoVisu");
 
+botaoVisu.addEventListener("click", function() {
+    Div.classList.toggle('escondido');
+});
 
 
 
