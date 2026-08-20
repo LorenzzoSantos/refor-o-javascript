@@ -424,14 +424,6 @@ botaoVisu.addEventListener("click", function() {
     Div.classList.toggle('escondido');
 });
 
-
-
-// EXERCÍCIO 24 - Lista de tarefas
-// Esse exercício é a atividade principal!
-// Abra o arquivo script.js da atividade e complete os níveis.
-// ------------------------------------------------------------
-
-
 // ============================================================
 //  BLOCO 7 - DOM + LÓGICA COMBINADA (Desafio!)
 // ============================================================
